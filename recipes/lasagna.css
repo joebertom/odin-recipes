@@ -1,0 +1,36 @@
+* {
+    background-color: rgb(160, 114, 99);
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+nav{
+    background-color: rgb(35, 64,153);
+    display: flex;
+    align-items: center;
+    height: 69px;
+}
+nav h1 {
+    background-color: rgb(35, 64,153);
+    
+}
+
+.header-title {
+    background-color: rgb(35, 64,153);
+    text-align: center;
+}
+
+.header-title:hover {
+    transform: scale(1.1);
+    color: rgba(240, 248, 255, 0.767);
+
+}
+
+a:visited{
+    color: inherit; /* Or you can use any color you prefer */
+    text-decoration: none; /* Optional: Removes underlining, if desired */
+}
+
+a {
+    text-decoration: none;
+}

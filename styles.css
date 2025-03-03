@@ -1,4 +1,70 @@
 * {
     background-color: rgb(160, 114, 99);
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
+nav{
+    background-color: rgb(35, 64,153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+nav h1 {
+    background-color: rgb(35, 64,153);
+    
+}
+
+.header-title {
+    display: flex;
+    background-color: rgb(35, 64,153);
+    
+}
+
+.header-title:hover {
+    transform: scale(1.1);
+    color: rgba(240, 248, 255, 0.767);
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color: inherit; /* Or you can use any color you prefer */
+    text-decoration: none; /* Optional: Removes underlining, if desired */
+}
+
+.recipe-container {
+    background-color: rgb(187, 55, 55);
+    font-size: 26px;
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.recipe-container a {
+    background-color: rgb(187, 55, 55);
+}
+
+.recipe-container a:hover {
+    transform: scale(1.1);
+    color: rgba(240, 248, 255, 0.767);
+}
+
+img {
+    background-color: rgb(187, 55, 55);
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
