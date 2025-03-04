@@ -4,15 +4,48 @@
     margin: 0;
     color: white;
 }
+
+body {
+    text-align: center;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+}
+
+.body-bg {
+    background-color: yellowgreen;
+
+}
+
+.home-link {
+    position: fixed; 
+    padding: 10px;
+    border-radius: 10px 10px;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(35, 64,153);
+}
+.home-link:hover {
+    scale: 1.1;
+    color: bisque;
+}
+
 nav{
     background-color: rgb(35, 64,153);
     display: flex;
     align-items: center;
+    justify-content: space-around;
     height: 69px;
 }
 nav h1 {
     background-color: rgb(35, 64,153);
     
+}
+
+p {
+    height: 100em;
 }
 
 .header-title {
@@ -33,4 +66,13 @@ a:visited{
 
 a {
     text-decoration: none;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    
 }
